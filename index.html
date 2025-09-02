@@ -1,83 +1,90 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Сайт тренера</title>
+  <title>Trénérův web</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <h1><img src="img/photo_5352790240785462226_y.jpg" alt="Фото Руслана Волкова" width="250" height="300" align="right">
-    Привет! Я Руслан Волков, твой персональный тренер!
+  <h1 class="zaholovok"><img src="img/photo_5352790240785462226_y.jpg" alt="Foto Ruslana Volkova" width="250" height="300" align="right">
+    Ahoj! Jsem Ruslan Volkov, tvůj osobní trenér!
   </h1>
-  <h2>Помогаю людям достигать своих целей в спорте и здоровье.</h2>
+  <h2 class="podzaholovok">Pomáhám lidem dosahovat jejich cílů ve sportu a zdraví.</h2>
 
-  <h2>Мои услуги:</h2>
+  <h2 class="sluzby">Moje služby:</h2>
   <ul>
-    <li>Персональные тренировки</li>
-    <li>Групповые занятия</li>
-    <li>Онлайн-консультации</li>
-    <li>Планирование питания</li>
+    <li>Osobní tréninky</li>
+    <li>Skupinové lekce</li>
+    <li>Online konzultace</li>
+    <li>Plánování stravy</li>
   </ul>
 
-  <h1>Почему выбирают меня:</h1>
+  <h1>Proč si vybrat mě:</h1>
   <table border="1" cellpadding="5">
     <thead>
       <tr>
         <th></th>
-        <th>Со мной</th>
-        <th>Без меня</th>
+        <th>Se mnou</th>
+        <th>Bez mě</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <th>Техника выполнения</th>
-        <td>Научу правильно и без травм</td>
-        <td>Будут ошибки и возможны травмы</td>
+        <th>Technika provedení</th>
+        <td>Naučím správně a bez zranění</td>
+        <td>Chyby a možné zranění</td>
       </tr>
       <tr>
-        <th>Мотивация</th>
-        <td>Поддержу и помогу не сдаваться</td>
-        <td>Легко потерять мотивацию и бросить</td>
+        <th>Motivace</th>
+        <td>Podpořím tě a pomohu nevzdat se</td>
+        <td>Snadno ztratíte motivaci a přestanete</td>
       </tr>
       <tr>
-        <th>Индивидуальный подход</th>
-        <td>Программа под твои цели и возможности</td>
-        <td>Одинаковые программы для всех</td>
+        <th>Individuální přístup</th>
+        <td>Program přizpůsobený tvým cílům a možnostem</td>
+        <td>Stejné programy pro všechny</td>
       </tr>
       <tr>
-        <th>Результаты</th>
-        <td>Быстрый прогресс и достижение целей</td>
-        <td>Медленный прогресс или отсутствие результатов</td>
+        <th>Výsledky</th>
+        <td>Rychlý pokrok a dosažení cílů</td>
+        <td>Pomalý pokrok nebo žádné výsledky</td>
       </tr>
       <tr>
-        <th>План питания</th>
-        <td>Сбалансированное питание для целей</td>
-        <td>Неправильное питание, мешающее прогрессу</td>
+        <th>Stravovací plán</th>
+        <td>Vyvážená strava pro dosažení cílů</td>
+        <td>Nesprávná strava bránící pokroku</td>
       </tr>
     </tbody>
   </table>
-<video src="Video-164.mp4" width="300" height="400" autoplay muted controls></video>
-  <h2>Выбери свою цель:</h2>
+
+  <video src="Video-164.mp4" width="300" height="400" autoplay muted controls></video>
+
+  <h2>Vyber si svůj cíl:</h2>
   <form>
-    <label for="goals">Цель:</label>
+    <label for="goals">Cíl:</label>
     <select id="goals" name="goals">
-      <option value="weight_loss">Похудение</option>
-      <option value="muscle_gain">Набор мышечной массы</option>
-      <option value="endurance">Повышение выносливости</option>
-      <option value="general_fitness">Общая физическая форма</option>
+      <option value="weight_loss">Hubnutí</option>
+      <option value="muscle_gain">Nárůst svalové hmoty</option>
+      <option value="endurance">Zvýšení výdrže</option>
+      <option value="general_fitness">Obecná kondice</option>
     </select>
-    <form>
-      <p>Имя пользователя:</p>
-      <input align="right" type="text" name="username" size="15" maxlength="15">
-      <p>Пароль:</p>
-      <input type="password" name="password" size="15" maxlength="15">
   </form>
+
   <form>
-    <p> Введите адрес электронной почты:</p>
-    <input type="email" name="email" size="30" maxlength="30">
-    <input type="submit" value="Отправить">
+    <p>Uživatelské jméno:</p>
+    <input align="right" type="text" name="username" size="15" maxlength="15">
+    <p>Heslo:</p>
+    <input type="password" name="password" size="15" maxlength="15">
   </form>
-  <h2>Контакты:</h2>
+
+  <form>
+    <p>Zadejte e-mailovou adresu:</p>
+    <input type="email" name="email" size="30" maxlength="30">
+    <input type="submit" value="Odeslat">
+  </form>
+
+  <h2>Kontakty:</h2>
   <p>Email: ruskixrpo@gmail.com</p>
-  <p>Телефон: +420 123 132 345</p>
+  <p>Telefon: +420 123 132 345</p>
   <p>Instagram: <a href="https://www.instagram.com/ruskixrpo/">@ruskixrpo</a></p>
   <p>Facebook: <a href="https://www.facebook.com/ruskixrpo">ruskixrpo</a></p>
 </body>
