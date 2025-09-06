@@ -5,11 +5,36 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <h1 class="zaholovok"><img src="img/photo_5352790240785462226_y.jpg" alt="Foto Ruslana Volkova" width="250" height="300" align="right">
+  <h1 class="zaholovok">
     Ahoj! Jsem Ruslan Volkov, tvůj osobní trenér!
   </h1>
   <h2 class="podzaholovok">Pomáhám lidem dosahovat jejich cílů ve sportu a zdraví.</h2>
-
+  <section class="about">
+  <div class="about-container">
+    <div class="about-img">
+      <img src="img/photo_5352790240785462226_y.jpg" alt="Moje fotografie">
+    </div>
+    <div class="about-text">
+      <h1 class="o_mne">O mně</h1>
+      <p>
+        Mým hlavním cílem je pomoci vám stát se <span>silnějšími, zdravějšími</span> 
+        a sebevědomějšími. Jsem hluboce přesvědčen, že sport a správný přístup 
+        k tréninku mohou měnit život, a proto se na vašem úspěchu podílím 
+        na sto procent.
+      </p>
+      <p>
+        S <span>12 lety zkušeností</span> ve sportu a šampionátskými úspěchy vím, že 
+        pro dosažení výsledků je důležitá nejen fyzická příprava, ale také 
+        podpora, motivace a pozornost ke každému kroku.
+      </p>
+      <p>
+        Jsem zde, abych vám pomohl rozvinout váš potenciál, 
+        překonat hranice a postupně dosáhnout vašich cílů.
+      </p>
+      <a href="mailto:ruskixrpo@gmail.com" class="btn">Kontaktuj mě</a>
+    </div>
+  </div>
+</section>
   <h1 class="duvod">Proč si vybrat mě:</h1>
   <div class="comparison">
   <div class="column good">
@@ -34,44 +59,73 @@
     </ul>
   </div>
 </div>
-<h2 class="sluzby">Moje služby:</h2>
-  <ul>
-    <li>Osobní tréninky</li>
-    <li>Skupinové lekce</li>
-    <li>Online konzultace</li>
-    <li>Plánování stravy</li>
-  </ul>
+<section class="services">
+  <div class="services-container">
+    <h2 class="services-title">Moje služby</h2>
 
-  <video src="Video-164.mp4" width="300" height="400" autoplay muted controls></video>
+    <div class="services-grid">
+      <article class="service-card">
+        <div class="service-icon">🏋️‍♂️</div>
+        <h3>Osobní tréninky</h3>
+        <p>Individuální plán šitý na míru: technika, síla a postupné zvyšování zátěže.</p>
+        <a href="mailto:ruskixrpo@gmail.com?subject=Osobní%20tréninky" class="service-btn">Zarezervovat</a>
+      </article>
 
-  <h2>Vyber si svůj cíl:</h2>
-  <form>
-    <label for="goals">Cíl:</label>
-    <select id="goals" name="goals">
-      <option value="weight_loss">Hubnutí</option>
-      <option value="muscle_gain">Nárůst svalové hmoty</option>
-      <option value="endurance">Zvýšení výdrže</option>
-      <option value="general_fitness">Obecná kondice</option>
-    </select>
-  </form>
+      <article class="service-card">
+        <div class="service-icon">🤝</div>
+        <h3>Skupinové lekce</h3>
+        <p>Motivační skupina, společné výsledky, zábava a podpora ostatních.</p>
+        <a href="mailto:ruskixrpo@gmail.com?subject=Skupinové%20lekce" class="service-btn">Více info</a>
+      </article>
 
-  <form>
-    <p>Uživatelské jméno:</p>
-    <input align="right" type="text" name="username" size="15" maxlength="15">
-    <p>Heslo:</p>
-    <input type="password" name="password" size="15" maxlength="15">
-  </form>
+      <article class="service-card">
+        <div class="service-icon">💻</div>
+        <h3>Online konzultace</h3>
+        <p>Tréninkový plán a konzultace přes video — vhodné i pro dálku.</p>
+        <a href="mailto:ruskixrpo@gmail.com?subject=Online%20konzultace" class="service-btn">Domluvit</a>
+      </article>
 
-  <form>
-    <p>Zadejte e-mailovou adresu:</p>
-    <input type="email" name="email" size="30" maxlength="30">
-    <input type="submit" value="Odeslat">
-  </form>
+      <article class="service-card">
+        <div class="service-icon">🥗</div>
+        <h3>Plánování stravy</h3>
+        <p>Vyvážený jídelníček podle cíle (hubnutí / nárůst svalů / výkon).</p>
+        <a href="mailto:ruskixrpo@gmail.com?subject=Plánování%20stravy" class="service-btn">Objednat</a>
+      </article>
+    </div>
+  </div>
+</section>
 
-  <h2>Kontakty:</h2>
-  <p>Email: ruskixrpo@gmail.com</p>
-  <p>Telefon: +420 123 132 345</p>
-  <p>Instagram: <a href="https://www.instagram.com/ruskixrpo/">@ruskixrpo</a></p>
-  <p>Facebook: <a href="https://www.facebook.com/ruskixrpo">ruskixrpo</a></p>
+<section class="contacts">
+  <div class="contacts-container">
+    <h2 class="contacts-title">Kontakty</h2>
+    <div class="contacts-grid">
+
+      <div class="contact-card">
+        <div class="contact-icon">📧</div>
+        <p>Email:</p>
+        <a href="mailto:ruskixrpo@gmail.com">ruskixrpo@gmail.com</a>
+      </div>
+
+      <div class="contact-card">
+        <div class="contact-icon">📞</div>
+        <p>Telefon:</p>
+        <a href="tel:+420123132345">+420 123 132 345</a>
+      </div>
+
+      <div class="contact-card">
+        <div class="contact-icon">📸</div>
+        <p>Instagram:</p>
+        <a href="https://www.instagram.com/ruskixrpo/" target="_blank">@ruskixrpo</a>
+      </div>
+
+      <div class="contact-card">
+        <div class="contact-icon">📘</div>
+        <p>Facebook:</p>
+        <a href="https://www.facebook.com/ruskixrpo" target="_blank">ruskixrpo</a>
+      </div>
+
+    </div>
+  </div>
+</section>
 </body>
 </html>
