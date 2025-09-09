@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #ffd7d7;
+  background:url('IMG_9030.JPG') no-repeat;
+  background-size: cover; 
+  background-position: center;
+}
+
+.wrapper {
+  width: 420px;
+  background: transparent;
+  border: 2px solid #ffffff;
+  color: #fff;
+  backdrop-filter: blur(20px);
+  box-shadow: 0 0 10px rgba(0,0,0, .5);
+  border-radius: 12px;
+  padding: 30px 40px;
+  border-radius: 10px;
+  padding: 30px 40px;
+}
+
+.wrapper h1 {
+  text-align: center;
+  font-size: 36px;
+}
+
+.wrapper .input-box {
+  width: 100%;
+  height: 50px;
+  margin: 30px 0;
+  position: relative;
+}
+
+.input-box input {
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border: 2px solid #b8aeae;
+  border-radius: 40px; 
+  font-size: 16px;
+  color: #ffffff;
+  padding: 20px 45px 20px 20px;
+  outline: none;
+}
+
+.input-box input::placeholder {
+  color: #ffffff;
+}
+
+.input-box i {
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  font-size: 20px;
+  color: #fff;
+  pointer-events: none; /* чтобы клик не блокировался */
+}
+
+.wrapper .remember {
+  font-size: 14.5px;
+  display: flex;
+  justify-content: space-between;
+  margin: -15px 0 15px;
+}
+
+.remember label input {
+  accent-color: #ffffff;
+  margin-right: 3px;
+}
+
+.remember a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.remember a:hover {
+  text-decoration: underline;
+}
+
+.wrapper .btn {
+  width: 100%;
+  height: 45px;
+  border: none;
+  outline: none;
+  background: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 40px;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0,0,0, .1);
+  color: #201212;
+}
+
+.wrapper .register-link {
+  text-align: center;
+  font-size: 14.5px;
+  margin: 20px 0 10px;
+}
+
+.register-link p {
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.register-link p a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.register-link p a:hover {
+  text-decoration: underline;
+  color: green;
+}
